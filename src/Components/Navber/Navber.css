@@ -1,0 +1,18 @@
+.Navbar{
+    @apply pt-[48px] hidden lg:block
+}
+.menu_row{
+    @apply flex justify-between 
+}
+.menu_col ul{
+    @apply flex gap-[40px]
+}
+.menu_col ul li a{
+    @apply text-[16px] font-[400] font-rubik text-[#4F5665]
+}
+.menu_button a{
+    @apply text-[16px] py-[13px] px-[45px] font-rubik font-[500] border-[1px] border-transparent rounded-[50px] transition duration-[.3s]
+}
+.menu_button a:hover{
+    @apply border-[1px] border-solid border-[#F53855] rounded-[50px] text-[#F53855]
+}
