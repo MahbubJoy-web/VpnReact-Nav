@@ -8,7 +8,7 @@
     @apply w-[90px]
 }
 .resmenu_Icon .menu_icon{
-    @apply w-[40px] h-[40px] text-[#F95454] active:border-[3px] border-solid border-[#F53855] rounded-[3px]
+    @apply w-[30px] h-[30px] text-[#F95454] active:border-[3px] border-solid border-[#F53855] rounded-[3px]
 }
 .meni_col{
     @apply mt-[8px] flex justify-end
@@ -18,4 +18,19 @@
 }
 .meni_col ul li a{
     @apply text-[12px] font-[400] font-rubik text-[#fff] text-center
+}
+.Main_icon{
+    @apply flex justify-center items-center
+}
+.login_icon{
+    @apply w-[30px] h-[30px] text-[#F95454] 
+}
+.meni_con{
+    @apply flex justify-end mt-[10px]
+}
+.slu{
+    @apply flex flex-col text-center gap-[10px]
+}
+.slu a{
+    @apply px-[5px] py-[1px] text-[12px] border-[2px] border-solid border-[#F53855] rounded-[5px] active:scale-[1.1] transition duration-[.2s]
 }
