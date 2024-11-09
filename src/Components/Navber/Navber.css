@@ -4,6 +4,7 @@
 .menu_row{
     @apply flex justify-between 
 }
+
 .menu_col ul{
     @apply flex gap-[40px]
 }

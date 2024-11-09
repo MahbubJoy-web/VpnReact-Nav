@@ -1,0 +1,25 @@
+.Counter{
+    @apply mt-[103px]
+}
+.counter_row{
+    @apply lg:w-full py-[37px] px-[90px] rounded-[10px] shadow-[-6px_15px_16px_-7px_rgba(0,_0,_0,_0.1)] flex justify-between items-center flex-wrap
+}
+.singel_counter .icon {
+    @apply w-[55px] h-[55px] rounded-[70px] bg-[#FFECEC] flex justify-center items-center
+}
+.icon .sicon{
+    @apply w-[24px] text-[#F53838]
+}
+
+.count_num{
+    @apply flex gap-[2px] font-[700] font-rubik text-[25px]
+}
+.singel_counter {
+    @apply flex gap-[129px]
+}
+.singel_counter .alu{
+    @apply h-[125px] w-[1px] bg-[#EEEFF2] hidden lg:block
+}
+.moris{
+    @apply flex gap-[36px] items-center
+}

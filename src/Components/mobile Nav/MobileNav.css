@@ -2,10 +2,10 @@
     @apply pt-[30px]  lg:hidden
 }
 .resmenu_row{
-    @apply flex justify-between
+    @apply flex justify-between items-center
 }
 .resmenu_logo img {
-    @apply w-[90px]
+    @apply w-[130px]
 }
 .resmenu_Icon .menu_icon{
     @apply w-[30px] h-[30px] text-[#F95454] active:border-[3px] border-solid border-[#F53855] rounded-[3px]
@@ -17,7 +17,10 @@
      @apply p-4 text-end bg-[#F53855]
 }
 .meni_col ul li a{
-    @apply text-[12px] font-[400] font-rubik text-[#fff] text-center
+    @apply text-[12px] font-[400] font-rubik text-[#fff] text-center transition delay-[5s]
+}
+.meni_col ul li a:hover{
+    @apply underline
 }
 .Main_icon{
     @apply flex justify-center items-center

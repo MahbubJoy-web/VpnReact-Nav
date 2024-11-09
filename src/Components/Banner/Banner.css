@@ -1,0 +1,25 @@
+
+.joy_banner{
+    @apply mt-[101px] 
+}
+.banner_row{
+    @apply flex justify-between items-center flex-wrap flex-col-reverse md:flex-row md:flex-nowrap md:flex-col-reverse lg:flex-row
+}
+.banner_text h2{
+    @apply w-full text-[30px] md:text-[50px] font-rubik font-medium md:w-[555px] lg:w-[555px]
+}
+.banner_text h2 span{
+    @apply font-bold
+}
+.banner_text p{
+    @apply mt-[20px] mb-[50px] w-full text-[16px] lg:w-[555px] font-rubik font-[400] text-[#4F5665]
+}
+.banner_text p span{
+    @apply font-medium
+}
+.banner_button a{
+    @apply py-[14px] px-[50px] md:py-[17.5px] md:px-[77.5px] rounded-[10px] bg-[#F53838] text-[#fff] font-rubik font-bold shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]
+}
+.banner_image img{
+    @apply w-[611px] md:w-[550px]
+}
