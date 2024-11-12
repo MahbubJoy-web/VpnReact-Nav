@@ -1,0 +1,52 @@
+.Network{
+    @apply bg-[#F6F6F6] md:pt-[150px] pt-[100px]
+}
+.net_row{
+    @apply w-full flex items-center flex-col
+}
+.net_text{
+    @apply flex flex-col items-center
+}
+.net_text h2 {
+    @apply w-full md:w-[383px] text-center text-[35px] font-[500] font-rubik text-[#0B132A]
+}.net_text p{
+    @apply  mt-[20px] w-full md:w-[555px] text-center font-rubik font-[400] text-[#4F5665] text-[16px]
+}
+.map{
+    @apply mt-[100px] md:mt-[155px] relative
+}
+.map_pointer{
+    @apply w-[37px]  h-[37px] absolute left-[57px] top-[83px] ;
+            animation: ani infinite linear 2s;
+}
+@keyframes ani {
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.5);
+    }
+}
+.no1{
+    @apply left-[45px] top-[63px] 
+}
+.no2{
+    @apply left-[15%] top-[15%%] 
+}
+.no3{
+    @apply left-[25%] top-[15%%] 
+}
+
+.no4{
+    @apply left-[20%] top-[15%%] 
+}
+.no5{
+    @apply left-[35%] top-[10%] 
+}
+
+.no6{
+    @apply left-[28%] top-[50%%] 
+}

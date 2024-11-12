@@ -1,0 +1,22 @@
+.Feature{
+    @apply  md:mt-[95px] mt-[60px]
+}
+.feature_row{
+    @apply flex w-full flex-wrap md:justify-center md:gap-[169px]
+}
+
+.feature_text h2{
+    @apply mt-[15px] font-rubik font-[500] text-[35px] w-full md:w-[383px]
+}
+.feature_text h3{
+    @apply mt-[14px] md:mt-[20px] font-rubik font-[400] text-[16px] w-full md:w-[427px] text-[#4F5665]
+}
+.pont_text{
+    @apply mt-[10px] md:mt-[20px] flex flex-col gap-[15px]
+}
+.pont_text p {
+    @apply mt-[14px] md:mt-[20px] flex items-center gap-[10px] text-[14px] font-rubik font-[400] text-[#4F5665]
+}
+.pont_text p .pointer {
+    @apply w-[24px] h-[24px] text-[#2FAB73]
+}

@@ -1,0 +1,39 @@
+.Plan{
+    @apply mt-[60px] md:mt-[110px] bg-[#F6F6F6] 
+}
+.planHead{
+    @apply pt-[80px] w-full flex items-center flex-col
+}
+.planHead h2 {
+    @apply w-full font-[500] font-rubik text-[35px] text-[#0B132A] text-center
+}
+.planHead p {
+    @apply  w-full sm:w-[555px] font-[400] font-rubik text-[16px] text-[#4F5665] text-center
+}
+.masterCard{
+    @apply mt-[60px] flex flex-wrap justify-center gap-[46px]
+}
+.single_card{
+    @apply w-[330px] h-[760px] border-[none] outline-[2px] outline outline-[#DDDDDD] rounded-[10px] flex flex-col justify-center items-center
+}
+.card_name h3{
+    @apply mt-[30px]  text-[18px] font-rubik font-[500] text-[#0B132A]
+}
+.card_point{
+    @apply mt-[30px] flex flex-col gap-[10px]
+}
+.card_point p{
+    @apply flex items-center gap-[20px] font-rubik font-[400] text-[14px] text-[#4F5665]
+}
+.card_point p .marker{
+    @apply w-[24px] h-[24px] text-[#2FAB73] 
+}
+.card_price h2{
+    @apply mt-[130px] mb-[20px] font-[500] font-rubik text-[25px] text-[#0B132A]
+}
+.card_price h2 span{
+    @apply font-rubik font-[400] text-[25px] text-[#4F5665]
+}
+.card_button a{
+    @apply  px-[62px] py-[13px] border-[3px] border border-[#F53838] rounded-[50px] font-rubik font-[700] text-[16px] text-[#F53838]
+}

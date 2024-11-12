@@ -12,7 +12,6 @@ const Counter = () => {
         <div className="container">
             <div className="counter_row">
                 <div className="singel_counter">
-                    <div className="moris">
                     <div className="icon">
                         <FaUserLarge className='sicon' />
                     </div>
@@ -23,11 +22,9 @@ const Counter = () => {
                     </div>
                     <h3>Locations</h3>
                     </div>
-                    </div>
-                    <div className='alu'></div>
+                    <div className='part'></div>
                 </div>
                 <div className="singel_counter">
-                    <div className="moris">
                     <div className="icon">
                     <FaMapMarkerAlt className='sicon' />
                     </div>
@@ -38,11 +35,9 @@ const Counter = () => {
                     </div>
                     <h3>Users</h3>
                     </div>
-                    </div>
-                    <div className='alu'></div>
+                    <div className='part'></div>
                 </div>
                 <div className="singel_counter">
-                    <div className="moris">
                     <div className="icon">
                     <FaDigitalTachograph className='sicon'/>
                     </div>
@@ -52,7 +47,6 @@ const Counter = () => {
                     <h2>+</h2>
                     </div>
                     <h3>Servers</h3>
-                    </div>
                     </div>
                 </div>
             </div>
