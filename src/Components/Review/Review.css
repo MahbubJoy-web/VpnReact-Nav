@@ -1,0 +1,11 @@
+.Review{
+    @apply bg-[#F6F6F6] md:pt-[50px] pt-[30px]
+}
+.ReHead_text{
+    @apply w-full flex flex-col items-center
+}
+.ReHead_text h2 {
+    @apply w-full md:w-[447px] text-center text-[35px] font-[500] font-rubik text-[#0B132A]
+}.ReHead_text p{
+    @apply  mt-[20px] w-full md:w-[555px] text-center font-rubik font-[400] text-[#4F5665] text-[16px]
+}

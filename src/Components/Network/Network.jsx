@@ -24,6 +24,38 @@ const Network = () => {
                     <img className='map_pointer no8' src="Image/MapPointer.png" alt="" />
                     <img className='map_pointer no9' src="Image/MapPointer.png" alt="" />
                     <img className='map_pointer no10' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no11' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no12' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no13' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no14' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no15' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no16' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no17' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no18' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no19' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no20' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no21' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no22' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no23' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no24' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no25' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no26' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no27' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no28' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no29' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no30' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no31' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no32' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no33' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no34' src="Image/MapPointer.png" alt="" />
+                    <img className='map_pointer no35' src="Image/MapPointer.png" alt="" />
+                </div>
+                <div className="powerBy">
+                    <img src="Image/Netflix.png" alt="" />
+                    <img src="Image/reddit.png" alt="" />
+                    <img src="Image/amazon.png" alt="" />
+                    <img src="Image/Discord.png" alt="" />
+                    <img src="Image/Spoti.png" alt="" />
                 </div>
             </div>
         </div>

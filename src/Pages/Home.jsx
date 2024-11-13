@@ -5,6 +5,7 @@ import Counter from '../Components/Counter/Counter'
 import Feature from '../Components/Feature/Feature'
 import Plan from '../Components/Plan/Plan'
 import Network from '../Components/Network/Network'
+import Review from '../Components/Review/Review'
 
 
 const Home = () => {
@@ -14,7 +15,8 @@ const Home = () => {
     <Counter/>
     <Feature/>
     <Plan/>
-    
+    <Network/>
+    <Review/>
    </>
   )
 }
